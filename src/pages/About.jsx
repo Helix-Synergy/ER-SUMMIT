@@ -25,25 +25,25 @@ const data = {
     organizer: "Helix Conferences",
     description: [
       <>
-  
-The <Link to="/ainurse-orators"className="
+
+        The <Link to="/ainurse-orators" className="
              hover:text-accent hover:decoration-accent
              transition-colors duration-300">
-World Critical & Emergency Care Summit,   </Link>
- organized by Helix Conferences, is a distinguished international forum dedicated to advancing best practices, innovation, and resilience in emergency and critical care systems that save lives and improve patient outcomes.
-The conference is designed to facilitate high-level knowledge exchange, multidisciplinary collaboration, and evidence-based dialogue that enhances preparedness, response, and recovery across emergency and critical care settings. Key focus areas include trauma and emergency medicine, intensive care, critical nursing, emergency preparedness, disaster management, patient safety, and digital health solutions.
-Through keynote addresses, plenary sessions, expert-led panels, simulation-based workshops, and real-world case studies, participants gain strategic insights into clinical excellence, operational efficiency, workforce resilience, and evolving care models.
-<Link to="/about-er-summit"  className="
+          World Critical & Emergency Care Summit,   </Link>
+        organized by Helix Conferences, is a distinguished international forum dedicated to advancing best practices, innovation, and resilience in emergency and critical care systems that save lives and improve patient outcomes.
+        The conference is designed to facilitate high-level knowledge exchange, multidisciplinary collaboration, and evidence-based dialogue that enhances preparedness, response, and recovery across emergency and critical care settings. Key focus areas include trauma and emergency medicine, intensive care, critical nursing, emergency preparedness, disaster management, patient safety, and digital health solutions.
+        Through keynote addresses, plenary sessions, expert-led panels, simulation-based workshops, and real-world case studies, participants gain strategic insights into clinical excellence, operational efficiency, workforce resilience, and evolving care models.
+        <Link to="/about-er-summit" className="
              hover:text-accent hover:decoration-accent
              transition-colors duration-300">
- </Link>
- 
-      
+        </Link>
+
+
       </>,
       <>
         {/* From cutting-edge AI to advanced robotics, from cybersecurity trends to sustainable engineering—we curate thought-provoking content and create immersive spaces where innovation thrives. Explore our sessions to engage with the future of technology, exchange ideas with global experts, and drive impactful solutions across industries.{" "} */}
         <Link
-          to= "/er-summit-conference-tracks/" 
+          to="/er-summit-conference-tracks/"
           target="blank"
           rel="noopener noreferrer"
           className="text-accent font-bold"
@@ -58,53 +58,53 @@ Through keynote addresses, plenary sessions, expert-led panels, simulation-based
       // linkText: "Microbiome Science",
       // link: "/",
       suffix:
-       "Join global healthcare leaders, clinicians, and policymakers in strengthening emergency response systems and advancing high-quality critical care worldwide..",
+        "Join global healthcare leaders, clinicians, and policymakers in strengthening emergency response systems and advancing high-quality critical care worldwide..",
     },
   ],
-highlights: [
-  {
-    title: "Distinguished Keynote Speakers",
-    description:
-      "Engage with internationally recognized leaders in emergency medicine, trauma care, and critical care innovation.",
-  },
-  {
-    title: "Technical Workshops & Expert Sessions",
-    description:
-      "Participate in in-depth sessions on advanced life support, trauma management, ICU best practices, and emergency preparedness.",
-  },
-  {
-    title: "Innovation & Technology Exhibition",
-    description:
-      "Explore cutting-edge medical devices, monitoring systems, emergency response technologies, and critical care solutions.",
-  },
-  {
-    title: "Strategic Networking Opportunities",
-    description:
-      "Connect with global stakeholders across emergency services, hospitals, academia, and healthcare policy.",
-  },
-  {
-    title: "Emergency Preparedness & Patient Safety Focus",
-    description:
-      "Gain insights into disaster readiness, crisis management, infection control, and patient safety in high-acuity environments.",
-  },
-  {
-    title: "Clinical & Operational Intelligence",
-    description:
-      "Discover the latest research, protocols, regulatory updates, and performance strategies in critical and emergency care.",
-    linkText: "View event schedule",
-    link: "/er-summit-event-schedule",
-  },
-  {
-    title: "Collaboration & Response Platforms",
-    description:
-      "Build cross-sector partnerships to strengthen emergency systems, improve coordination, and enhance patient outcomes.",
-  },
-  {
-    title: "Professional Development & Accreditation",
-    description:
-      "Earn professional development recognition through certified training programs, simulation workshops, and advanced clinical sessions.",
-  },
-],
+  highlights: [
+    {
+      title: "Distinguished Keynote Speakers",
+      description:
+        "Engage with internationally recognized leaders in emergency medicine, trauma care, and critical care innovation.",
+    },
+    {
+      title: "Technical Workshops & Expert Sessions",
+      description:
+        "Participate in in-depth sessions on advanced life support, trauma management, ICU best practices, and emergency preparedness.",
+    },
+    {
+      title: "Innovation & Technology Exhibition",
+      description:
+        "Explore cutting-edge medical devices, monitoring systems, emergency response technologies, and critical care solutions.",
+    },
+    {
+      title: "Strategic Networking Opportunities",
+      description:
+        "Connect with global stakeholders across emergency services, hospitals, academia, and healthcare policy.",
+    },
+    {
+      title: "Emergency Preparedness & Patient Safety Focus",
+      description:
+        "Gain insights into disaster readiness, crisis management, infection control, and patient safety in high-acuity environments.",
+    },
+    {
+      title: "Clinical & Operational Intelligence",
+      description:
+        "Discover the latest research, protocols, regulatory updates, and performance strategies in critical and emergency care.",
+      linkText: "View event schedule",
+      link: "/er-summit-event-schedule",
+    },
+    {
+      title: "Collaboration & Response Platforms",
+      description:
+        "Build cross-sector partnerships to strengthen emergency systems, improve coordination, and enhance patient outcomes.",
+    },
+    {
+      title: "Professional Development & Accreditation",
+      description:
+        "Earn professional development recognition through certified training programs, simulation workshops, and advanced clinical sessions.",
+    },
+  ],
 
 
 
@@ -140,7 +140,7 @@ const AboutPublicHealth = () => {
       </div>
 
       <h1 className="text-4xl mt-2 font-bold text-one">
-Strengthening Emergency Response Advancing Critical Care Excellence
+        Strengthening Emergency Response Advancing Critical Care Excellence
       </h1>
       <p className="text-center text-gray-600 text-3xl mb-6">
         <strong>
@@ -151,7 +151,7 @@ Strengthening Emergency Response Advancing Critical Care Excellence
       {data.event.description.map((desc, idx) => (
         <p
           key={idx}
-          className="mb-6 text-lg leading-relaxed text-center w-full min-w-5xl px:2 md:px-12 lg:px-24"
+          className="mb-6 text-lg leading-relaxed text-justify w-full min-w-5xl px:2 md:px-12 lg:px-24"
         >
           {desc}
         </p>
@@ -165,7 +165,7 @@ Strengthening Emergency Response Advancing Critical Care Excellence
         {data.join.map((para, idx) => (
           <p
             key={idx}
-            className="mb-6 text-lg leading-relaxed text-center w-full min-w-5xl px:2 md:px-12 lg:px-24"
+            className="mb-6 text-lg leading-relaxed text-justify w-full min-w-5xl px:2 md:px-12 lg:px-24"
           >
             {para.text} <Link to={para.link}>{para.linkText}</Link>
             {para.suffix}
@@ -180,25 +180,25 @@ Strengthening Emergency Response Advancing Critical Care Excellence
           <div className="bg-white rounded-xl shadow px-4 py-6 flex flex-col items-center hover:shadow-lg transition">
             <User className="h-10 w-10 text-one mb-3" />
             <h3 className="text-lg font-semibold text-gray-800 mb-1">
- Emergency Medicine Physicians and Trauma Specialists
+              Emergency Medicine Physicians and Trauma Specialists
             </h3>
           </div>
           <div className="bg-white rounded-xl shadow px-4 py-6 flex flex-col items-center hover:shadow-lg transition">
             <BookOpen className="h-10 w-10 text-one mb-3" />
             <h3 className="text-lg font-semibold text-gray-800 mb-1">
-Critical Care and ICU Nurses
+              Critical Care and ICU Nurses
             </h3>
           </div>
           <div className="bg-white rounded-xl shadow px-4 py-6 flex flex-col items-center hover:shadow-lg transition">
             <Rocket className="h-10 w-10 text-one mb-3" />
             <h3 className="text-lg font-semibold text-gray-800 mb-1">
-Hospital Administrators and Healthcare Leaders
+              Hospital Administrators and Healthcare Leaders
             </h3>
           </div>
           <div className="bg-white rounded-xl shadow px-4 py-6 flex flex-col items-center hover:shadow-lg transition">
             <PackageSearch className="h-10 w-10 text-one mb-3" />
             <h3 className="text-lg font-semibold text-gray-800 mb-1">
-Disaster Management and Emergency Preparedness Experts
+              Disaster Management and Emergency Preparedness Experts
             </h3>
           </div>
         </div>
@@ -218,7 +218,7 @@ Disaster Management and Emergency Preparedness Experts
                 <h3 className="font-semibold whitespace-nowrap mr-1">
                   {highlight.title} –
                 </h3>
-                <p className="text-md text-gray-600 flex-1">
+                <p className="text-md text-gray-600 flex-1 text-justify">
                   {highlight.link ? (
                     <>
                       {highlight.description}{" "}

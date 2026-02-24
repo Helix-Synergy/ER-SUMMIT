@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 // Images for agri
 import img1 from "../assets/tracks/img1.webp";
 import img2 from "../assets/tracks/img2.jpg"
-import img3  from "../assets/tracks/img3.webp";
+import img3 from "../assets/tracks/img3.webp";
 import img4 from "../assets/tracks/img4.png";
 import img5 from "../assets/tracks/img5.webp";
 import img6 from "../assets/tracks/img6.jpg"
@@ -29,16 +29,16 @@ export const tracks = [
     title: "AI in Emergencies",
     description: (
       <>
- {" "}
+        {" "}
         <Link
-          to= "/er-summit-orators" 
+          to="/er-summit-orators"
           className="
              hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
-AI in emergencies
+          AI in emergencies
         </Link>  supports rapid decision-making through predictive analytics, triage automation, and real-time clinical insights. It enhances early detection, resource allocation, and response efficiency. Healthcare professionals use AI to improve accuracy, reduce delays, support critical decisions, and strengthen emergency preparedness and patient outcomes in high-pressure clinical environments worldwide.
-   
+
       </>
     ),
   },
@@ -48,13 +48,13 @@ AI in emergencies
     title: "Shock Treatment",
     description: (
       <>
-{" "}
+        {" "}
         <Link
-          to= "/er-summit-event-schedule"
+          to="/er-summit-event-schedule"
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
-Shock treatment 
+          Shock treatment
         </Link>{" "} focuses on rapid identification and management of circulatory failure to restore tissue perfusion. It includes fluid resuscitation, vasopressors, oxygen therapy, and continuous monitoring. Early intervention by trained clinicians prevents organ failure, stabilizes patients, and improves survival across traumatic, septic, cardiogenic, and hypovolemic shock conditions.
       </>
     ),
@@ -65,13 +65,13 @@ Shock treatment
     title: "Pediatric Emergencies",
     description: (
       <>
-{" "}
+        {" "}
         <Link
           to="/venue"
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
-Pediatric emergencies
+          Pediatric emergencies
         </Link>  require specialized assessment and age-appropriate interventions for infants and children. They include respiratory distress, trauma, seizures, poisoning, and infections. Healthcare teams prioritize rapid stabilization, family-centered communication, and child-specific protocols to ensure safe, effective, and compassionate emergency care for young patients in critical situations.
       </>
     ),
@@ -82,9 +82,9 @@ Pediatric emergencies
     title: "Clinical Care",
     description: (
       <>
-  {" "}
+        {" "}
         <Link
-          to= "/event_partners"
+          to="/event_partners"
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         > Clinical care  </Link>{" "}  in emergency settings focuses on timely assessment, diagnosis, and treatment of acute conditions. It integrates evidence-based protocols, multidisciplinary collaboration, and patient-centered decision-making. Effective clinical care ensures safety, quality outcomes, and continuity while addressing diverse medical emergencies under time-sensitive and high-pressure healthcare environments.
@@ -92,36 +92,36 @@ Pediatric emergencies
       </>
     ),
   },
-   {
-    image:img5,
+  {
+    image: img5,
     title: "Toxicology",
     description: (
       <>
-{" "}
+        {" "}
         <Link
           to="/event_partners"
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
-        Toxicology
-</Link>{" "} in emergency medicine addresses poisoning, overdose, and exposure to harmful substances. It involves rapid risk assessment, antidote administration, decontamination, and supportive care. Clinicians rely on toxicological expertise to prevent complications, manage acute toxicity, and ensure patient safety across accidental, occupational, and intentional exposures.
-       
+          Toxicology
+        </Link>{" "} in emergency medicine addresses poisoning, overdose, and exposure to harmful substances. It involves rapid risk assessment, antidote administration, decontamination, and supportive care. Clinicians rely on toxicological expertise to prevent complications, manage acute toxicity, and ensure patient safety across accidental, occupational, and intentional exposures.
+
       </>
     ),
   },
 
   {
-    image: img6 ,
+    image: img6,
     title: "Critical Care",
     description: (
       <>
-{" "}
+        {" "}
         <Link
-          to="/contact" 
+          to="/contact"
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
-Critical care
+          Critical care
         </Link>{" "}  focuses on managing life-threatening conditions requiring intensive monitoring and advanced support. It includes mechanical ventilation, hemodynamic stabilization, and organ support. Multidisciplinary teams deliver continuous, high-acuity care to stabilize patients, prevent deterioration, and improve survival in intensive and emergency care environments.
       </>
     ),
@@ -134,13 +134,13 @@ Critical care
       <>
 
         <Link
-          to= "/contact" 
+          to="/contact"
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
-Neurological emergencies
+          Neurological emergencies
         </Link>{" "}   include stroke, seizures, head injury, and altered consciousness. Rapid assessment and intervention are critical to prevent permanent damage. Emergency teams prioritize early imaging, airway protection, and neurological monitoring, ensuring timely treatment that improves outcomes and preserves neurological function in acute, high-risk situations.
-     
+
       </>
     ),
   },
@@ -150,32 +150,32 @@ Neurological emergencies
     title: "Trauma Care",
     description: (
       <>
-{" "}
+        {" "}
         <Link
           to="/"
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
-Trauma care
+          Trauma care
         </Link>{" "}    focuses on rapid evaluation and management of injuries caused by accidents or violence. It emphasizes airway control, bleeding management, imaging, and surgical intervention. Coordinated trauma teams deliver lifesaving care, reduce complications, and improve survival through structured protocols and timely, multidisciplinary emergency response systems.
       </>
     ),
   },
 
   {
-    image:  img9,
+    image: img9,
     title: "Pulmonary Emergencies",
     description: (
       <>
-  {" "}
+        {" "}
         <Link
-          to= "/about-er-summit"
+          to="/about-er-summit"
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
-Pulmonary emergencies
+          Pulmonary emergencies
         </Link>{" "} include acute asthma, pulmonary embolism, pneumonia, and respiratory failure. Prompt diagnosis, oxygen therapy, ventilation support, and medication are essential. Emergency clinicians manage airway and breathing priorities to stabilize patients, prevent hypoxia, and ensure effective respiratory function during life-threatening pulmonary conditions.
-      
+
       </>
     ),
   },
@@ -185,13 +185,13 @@ Pulmonary emergencies
     title: "ENT Emergencies",
     description: (
       <>
-{" "}
+        {" "}
         <Link
           to="/er-summit-orators"
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
-ENT emergencies
+          ENT emergencies
         </Link>{" "} involve acute conditions affecting the ear, nose, and throat, including airway obstruction, epistaxis, infections, and foreign bodies. Rapid assessment and intervention prevent airway compromise and complications. Emergency care ensures prompt stabilization, symptom relief, and referral for specialized treatment when required.
 
       </>
@@ -203,13 +203,13 @@ ENT emergencies
     title: "Addiction Medicine",
     description: (
       <>
-{" "}
+        {" "}
         <Link
           to="/er-summit-event-schedule"
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
-Addiction medicine
+          Addiction medicine
         </Link>{" "}  in emergencies addresses substance intoxication, withdrawal, and overdose. It integrates medical stabilization, harm reduction, and behavioral support. Emergency professionals manage acute complications, initiate treatment pathways, and connect patients to long-term care, supporting recovery and reducing repeat emergency presentations related to substance use disorders.
       </>
     ),
@@ -220,13 +220,13 @@ Addiction medicine
     title: "Infectious Diseases",
     description: (
       <>
-     {" "}
+        {" "}
         <Link
           to="https://helixconferences.com/buy-a-ticket"
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
-Infectious Diseases
+          Infectious Diseases
         </Link> in emergency care require rapid identification, isolation, and treatment. Conditions include sepsis, emerging infections, and communicable diseases. Early antimicrobial therapy, infection control measures, and surveillance reduce transmission, improve outcomes, and strengthen public health response during outbreaks and high-risk infectious emergencies..
       </>
 
@@ -238,13 +238,13 @@ Infectious Diseases
     title: "Cardiac Arrest",
     description: (
       <>
- {" "}
+        {" "}
         <Link
-          to="/" 
+          to="/"
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
-Cardiac arrest 
+          Cardiac arrest
         </Link>{" "}  management focuses on immediate resuscitation using high-quality CPR, defibrillation, and advanced life support. Rapid response improves survival and neurological outcomes. Emergency teams coordinate airway management, medications, and post-resuscitation care to restore circulation and stabilize patients during critical cardiac emergencies.
       </>
     ),
@@ -255,34 +255,34 @@ Cardiac arrest
     title: "Emergency Radiology",
     description: (
       <>
-{" "}
+        {" "}
         <Link
           to="/venue"
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
- Emergency Radiology
+          Emergency Radiology
         </Link> provides rapid imaging support for acute diagnosis and decision-making. It includes CT, X-ray, ultrasound, and MRI for trauma and critical conditions. Timely imaging enables accurate diagnosis, guides interventions, and improves outcomes by supporting fast, informed clinical decisions in emergency and critical care settings.
 
-        
+
       </>
     ),
   },
 
   {
-    image:img15,
+    image: img15,
     title: "Gastroenterology",
     description: (
       <>
- {" "}
+        {" "}
         <Link
-          to= "/about-er-summit"
+          to="/about-er-summit"
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
-Gastroenterology
+          Gastroenterology
         </Link>  emergencies include gastrointestinal bleeding, acute abdominal pain, obstruction, and liver failure. Prompt assessment, imaging, and intervention are vital. Emergency clinicians manage stabilization, bleeding control, and supportive care while coordinating specialist input to prevent complications and ensure effective treatment of acute gastrointestinal conditions.
-        
+
       </>
     ),
   },
@@ -292,15 +292,15 @@ Gastroenterology
     title: "Pharmacology & Therapeutics",
     description: (
       <>
-      {" "}
+        {" "}
         <Link
-          to= "/"
+          to="/"
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
-  Pharmacology and therapeutics
+          Pharmacology and therapeutics
         </Link> in emergencies focus on safe, rapid medication use for acute conditions. It includes drug selection, dosing, interactions, and adverse effects. Clinicians rely on pharmacological knowledge to optimize treatment, reduce errors, and ensure effective, evidence-based therapy in time-critical emergency situations.
-     
+
       </>
     ),
   },
@@ -310,73 +310,73 @@ Gastroenterology
     title: "Anaphylaxis",
     description: (
       <>
-{" "}
+        {" "}
         <Link
-          to= "/venue"
+          to="/venue"
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
-  Anaphylaxis 
+          Anaphylaxis
         </Link>  is a severe, life-threatening allergic reaction requiring immediate treatment. Rapid administration of epinephrine, airway support, and monitoring is essential. Emergency teams act quickly to prevent respiratory compromise and shock, ensuring prompt stabilization and patient education to reduce future allergic risk and recurrence.
-</>
+      </>
     ),
   },
 
   {
-    image:img18,
+    image: img18,
     title: "Drug Safety",
     description: (
       <>
-{" "}
+        {" "}
         <Link
           to="https://helixconferences.com/buy-a-ticket"
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
-Drug safety
+          Drug safety
         </Link> in emergency care focuses on preventing medication errors, adverse reactions, and toxicities. It includes careful prescribing, monitoring, and reporting. Emergency professionals ensure safe drug administration under pressure, protecting patients while balancing rapid treatment needs and maintaining compliance with safety protocols and clinical standards.
-  
+
       </>
     ),
   },
-// Ethical
+  // Ethical
 
   {
     image: img19,
     title: "Psychiatric Emergencies",
     description: (
       <>
-   {" "}
+        {" "}
         <Link
-          to= "/about-er-summit" 
+          to="/about-er-summit"
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
-Psychiatric emergencies
+          Psychiatric emergencies
         </Link>   nclude acute agitation, suicidal behavior, psychosis, and severe anxiety. Emergency care emphasizes safety, assessment, crisis intervention, and compassionate communication. Multidisciplinary teams stabilize patients, reduce risk, and coordinate mental health support, ensuring dignity, ethical care, and appropriate referral for ongoing psychiatric treatment.
 
       </>
     ),
   },
   // Microbiome Engineering
-  
+
   {
     image: img20,
     title: "Respiratory Emergencies",
     description: (
       <>
-  {" "}
+        {" "}
         <Link
           to="/"
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
-Respiratory emergencies
+          Respiratory emergencies
         </Link>   involve acute airway and breathing compromise, including asthma, COPD exacerbations, and respiratory failure. Immediate assessment, oxygen therapy, and ventilation support are critical. Emergency teams prioritize airway management and rapid intervention to prevent hypoxia, stabilize patients, and restore effective respiratory function.
       </>
     ),
   },
- 
+
 ];
 
 const StaticTracks = () => {
@@ -446,7 +446,7 @@ const StaticTracks = () => {
                 <h3 className="text-xl text-gray-600 font-semibold mb-3">
                   {track.subtitle}
                 </h3>
-                <p className="text-md text-gray-800 leading-relaxed">
+                <p className="text-md text-gray-800 leading-relaxed text-justify">
                   {track.description}
                 </p>
               </div>
