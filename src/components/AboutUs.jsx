@@ -42,7 +42,7 @@ The Critical & Emergency Care Summit brings together pioneers in emergency medic
              hover:text-accent hover:decoration-accent
              transition-colors duration-300"
             target="_blank"
-            to="https://helixconferences.com/blog.php"
+            // to="https://helixconferences.com/blog.php"
           >
           
             
