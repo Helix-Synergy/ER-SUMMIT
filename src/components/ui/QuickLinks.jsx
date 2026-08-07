@@ -8,13 +8,13 @@ const links = [
     id: 'mobile',
     icon: Phone,
     label: 'Call Us',
-    path: 'tel:+13052398055'
+    path: 'tel:+17036516096'
   },
   {
     id: 'whatsapp',
     icon: WhatsAppIcon,
     label: 'WhatsApp',
-    link: 'https://api.whatsapp.com/send/?phone=13052398055&text=Hello&type=phone_number&app_absent=0'
+    link: 'https://api.whatsapp.com/send/?phone=17036516096&text=Hello&type=phone_number&app_absent=0'
   },
   {
     id: 'abstract-submission',
@@ -26,7 +26,7 @@ const links = [
     id: 'brochure-download',
     icon: Download,
     label: 'Brochure download',
-    link: '/Er-Summit.pdf'
+    link: '/brochure-download'
   },
   {
     id: 'event-schedule',
@@ -55,13 +55,18 @@ const QuickLinks = () => {
           isActive ? 'translate-x-0' : 'translate-x-40'
         } ${id === 'mobile' ? 'animate-pulseShadow' : ''}`;
 
-        // ✅ Only brochure uses <a>
-        if (id === 'brochure-download') {
+
+
+        const isExternal = href.startsWith('tel:') || href.startsWith('http') || href.endsWith('.pdf');
+
+        if (isExternal) {
           return (
             <a
               key={id}
               href={href}
-              download
+              target="_blank"
+              rel="noopener noreferrer"
+              download="Er-Summit.pdf"
               onMouseEnter={() => setHoveredId(id)}
               onMouseLeave={() => setHoveredId(null)}
               className={classes}
@@ -76,7 +81,6 @@ const QuickLinks = () => {
           );
         }
 
-        // ✅ All others remain React routes
         return (
           <Link
             key={id}
